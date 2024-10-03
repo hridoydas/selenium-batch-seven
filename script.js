@@ -10,7 +10,7 @@ async function testRun() {
   await driver.findElement(By.xpath(`//a[contains(@href,'182')]/span[contains(text(),'${productName}')]`)).click();
   await driver.findElement(By.xpath("//a[@href='#' and contains(text(),'S')]")).click();
   await driver.sleep(3000);
-  await driver.findElement(By.xpath("//a[@href='#' and contains(text(),'Black')]")).click();
+  await driver.findElement(By.xpath("//a[@href='#' and contains(.,'Black')]")).click();
   await driver.sleep(3000)
   await driver.findElement(By.xpath("//input[@name='qty']")).clear();
   await driver.findElement(By.xpath("//input[@name='qty']")).sendKeys(2);
