@@ -14,7 +14,7 @@ async function testRun() {
   await driver.sleep(3000)
   await driver.findElement(By.xpath("//input[@name='qty']")).clear();
   await driver.findElement(By.xpath("//input[@name='qty']")).sendKeys(2);
-  await driver.findElement(By.xpath("//button[contains(.,'ADD TO CART')]")).click();
+  await driver.findElement(By.xpath("//button[contains(.,'CART')]")).click();
   await driver.sleep(4000);
   await driver.findElement(By.xpath("//a[@class='add-cart-popup-button']")).click();
   await driver.sleep(5000);
