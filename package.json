@@ -1,0 +1,20 @@
+{
+  "name": "selenium-webdriver",
+  "version": "1.0.0",
+  "description": "selenium webdriver practice project for batch seven",
+  "main": "index.js",
+  "scripts": {
+    "test": "node script.js"
+  },
+  "keywords": [
+    "selenium-webdriver",
+    "xpath",
+    "locators"
+  ],
+  "author": "hridoy_das",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^129.0.0",
+    "selenium-webdriver": "^4.25.0"
+  }
+}
